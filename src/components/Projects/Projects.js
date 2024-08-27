@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-import myKitchen from "../../Assets/Projects/myKitchen.png";
+import MyKitchen from "../../Assets/Projects/MyKitchen.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -37,11 +37,12 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={myKitchen}
+              imgPath={MyKitchen}
               isBlog={false}
               title="MyKitchen"
               description="a full-stack recipe management application where my girlfriend can easily add, edit, and categorize their favorite recipes. The application includes features like manual recipe entry, adding recipes via links, and organized category selection for efficient browsing. Implemented using React for the frontend and Node.js with MongoDB for the backend, focusing on a seamless and responsive user experience across devices."
               ghLink="https://github.com/OrSolomon24/MyKitchen"
+              demoLink="https://my-kitchen-two.vercel.app/"
             />
           </Col>
 
