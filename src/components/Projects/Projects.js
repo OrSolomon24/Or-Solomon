@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import MyKitchen from "../../Assets/Projects/MyKitchen.png";
+import Ilmo from "../../Assets/Projects/Ilmo.jpeg";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -43,6 +45,16 @@ function Projects() {
               description="a full-stack recipe management application where my girlfriend can easily add, edit, and categorize their favorite recipes. The application includes features like manual recipe entry, adding recipes via links, and organized category selection for efficient browsing. Implemented using React for the frontend and Node.js with MongoDB for the backend, focusing on a seamless and responsive user experience across devices."
               ghLink="https://github.com/OrSolomon24/MyKitchen"
               demoLink="https://my-kitchen-two.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Ilmo}
+              isBlog={false}
+              title="Ilmo - Stone and Marble"
+              description="A business showcase website for a family-owned stone and design company, presenting product categories, galleries, and informational content. Built as a frontend-only project using React and JavaScript, featuring a responsive design and deployed to production on Vercel."
+              ghLink="https://github.com/OrSolomon24"
+              demoLink="https://www.ilmo.co.il/"
             />
           </Col>
 
