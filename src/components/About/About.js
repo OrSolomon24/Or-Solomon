@@ -6,7 +6,8 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import DataStack from "./Datastack";
+import DataStack from "./DataStack";
+import GenAIStack from "./GenAIStack";
 
 function About() {
   return (
@@ -46,8 +47,13 @@ function About() {
         </h1>
         <Toolstack />
         <h1 className="project-heading"> 
-          <strong className="purple">Data Tools</strong> I use </h1> 
+          <strong className="purple">Data Tools</strong> I use
+        </h1> 
         <DataStack />
+        <h1 className="project-heading"> 
+          <strong className="purple">Gen AI</strong> Skills
+        </h1> 
+        <GenAIStack/>
         {/* <Github /> */}
       </Container>
     </Container>
